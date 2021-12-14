@@ -1,0 +1,61 @@
+<svg id="Componente_3_1" data-name="Componente 3 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="847.666" height="687.344" viewBox="0 0 847.666 687.344">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.3;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-6);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.441" y1="0.345" x2="0.423" y2="0.213" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.51" y1="0.467" x2="0.522" y2="0.883" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.297" y1="0.415" x2="0.348" y2="0.37" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="2.423" y1="0.35" x2="2.269" y2="0.362" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0.247" y1="0.616" x2="0.099" y2="0.663" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-0.748" y1="-0.47" x2="-1.505" y2="-1.058" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_34856" data-name="Grupo 34856" class="cls-1" transform="translate(-901 -245)">
+    <g id="Grupo_34855" data-name="Grupo 34855" transform="translate(1975.055 -24.8)">
+      <g id="Path_36843" data-name="Path 36843">
+        <path id="Caminho_36843" data-name="Caminho 36843" class="cls-2" d="M-1074.055,933.415l2.5-2.518,348-351,1.42,1.408-345.5,348.482L-242.584,728-421.639,497.215l1.58-1.226,180.945,233.218Z"/>
+      </g>
+      <g id="Path_36844" data-name="Path 36844">
+        <path id="Caminho_36844" data-name="Caminho 36844" class="cls-3" d="M-746.315,427.819l-243.3-128.406,3.724-.144,759.5-29.469L-398.621,386.43l-1.121-1.656,166.434-112.7-748.778,29.053,236.7,124.928Z"/>
+      </g>
+      <path id="Caminho_36845" data-name="Caminho 36845" class="cls-4" d="M-228.382,567.189-456.223,584.4l.15,1.994,222.159-16.785L-577.37,889.9v.48l-68.29,63.683L-921.934,530.243-692.31,649.489l.922-1.775L-927.764,524.961l281.727,432.183,415.571-388.012Z"/>
+      <path id="Caminho_36846" data-name="Caminho 36846" class="cls-5" d="M-708.926,857l-213-326.757L-771,608.622v-2.254l-156.759-81.407L-711.313,857Z"/>
+      <path id="Caminho_36847" data-name="Caminho 36847" class="cls-6" d="M-367.335,694.037-577.366,889.9v.48l-68.29,63.683L-683.044,896.7h-2.388l39.4,60.441,281.638-263.107Z"/>
+      <path id="Caminho_36848" data-name="Caminho 36848" class="cls-7" d="M-456.218,584.4l.15,1.994,222.159-16.785-89.579,83.535h2.933l90.095-84.016,2.083-1.943Z"/>
+      <path id="Caminho_36849" data-name="Caminho 36849" class="cls-8" d="M-382.407,578.8V580.8l148.494-11.219-198.381,185h3.447L-230.465,569.1l2.083-1.943Z"/>
+    </g>
+  </g>
+</svg>
