@@ -85,10 +85,20 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   background-color: #1267fc;
 }
 
+.master-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo-principal {
+  padding-top: 4%;
+  padding-left: 1%;
+}
+
 #hero {
   text-align: left;
-  padding-top: 7%;
-  padding-left: 14%;
+  padding-top: 1%;
+  padding-left: 23%;
   display: flex;
 }
 .hero-container h1 {
@@ -100,14 +110,14 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 .hero-container h2 {
   font-family: "Poppins", sans-serif;
   color: white;
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 #button {
   font-family: "Poppins", sans-serif;
   display: flex;
-  padding-left: 14%;
-  padding-top: 1%;
+  padding-top: 2%;
+  padding-right: 73%;
 }
 
 .bt1 {
@@ -115,7 +125,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 }
 
 .bt2 {
-  padding-left: 2%;
+  padding-left: 16%;
   text-align: center;
 }
 
