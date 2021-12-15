@@ -98,7 +98,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 #hero {
   text-align: left;
   padding-top: 1%;
-  padding-left: 23%;
+  padding-left: 16%;
   display: flex;
 }
 .hero-container h1 {
@@ -163,3 +163,20 @@ nav .start-contact, a:nth-child(5):hover~.animation {
  .btn:hover::before {
   transform: translateX(0);
  }
+
+ ::-webkit-scrollbar{
+  width: 4px;
+  height: 4px;
+  }
+  ::-webkit-scrollbar-thumb{
+  background: #A8A6A8;
+  border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+  background: #878587;
+  }
+  ::-webkit-scrollbar-track{
+  background: #FFFFFF;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+  }
