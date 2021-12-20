@@ -11,7 +11,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  background-color: #1b1b1b;
 }
 
 .max-width {
@@ -29,6 +28,7 @@
   font-family: "Poppins", sans-serif;
   z-index: 999;
   transition: all 0.3s ease;
+  background-color: #1b1b1b;
 }
 
 .navbar .sticky {
@@ -83,6 +83,7 @@
 
 .home {
   display: flex;
+  background-color: #1b1b1b;
   /*background: url(imge/struct.png) no-repeat center;*/
   height: 100vh;
   color: #fff;
@@ -134,30 +135,19 @@
 /* Menu Mobile */
 
 .menu-btn {
-  color: #fff;
+  color: #1267fc;
   font-size: 26px;
   cursor: pointer;
   display: none;
 }
 
-/* Sobre */
+/* Similares */
 
 section {
   padding: 100px 0;
 }
 
-.about .about-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.about {
-  font-family: "Poppins", sans-serif;
-}
-
-.about .title {
+section .title {
   font-family: 'Poppins', sans-serif;
   color: #fff;
   text-align: center;
@@ -168,7 +158,7 @@ section {
   position: relative;
 }
 
-.about .title::before {
+section .title::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -179,8 +169,7 @@ section {
   transform: translateX(-50%);
 }
 
-.about .title::after {
-  content: "Quem sou eu";
+section .title::after {
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -189,6 +178,24 @@ section {
   color: #1267fc;
   padding: 2px;
   transform: translateX(-50%);
+}
+
+/* Sobre */
+
+.about, .services {
+  background-color: #1b1b1b;
+  font-family: "Poppins", sans-serif;
+}
+
+.about .about-content, .services .serv-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .title::after {
+  content: "Quem sou eu";
 }
 
 .about .about-content .left {
@@ -240,6 +247,59 @@ section {
   border-radius: 8px;
 }
 
+/* Serviços */
+
+.services {
+  color: #fff;
+  background: #1b1b1b;
+}
+
+.services .title::before {
+  background: #4a5f83;
+}
+
+.services .title::after {
+  background: #1b1b1b;
+  content: "Que ofereço";
+}
+
+.services .serv-content .card {
+  width: calc(33% - 20px);
+  background: #181818;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover {
+  background: #1267fc;
+}
+
+.services .serv-content .card .box {
+  transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box {
+  transform: scale(1.05);
+}
+
+.services .serv-content .card ion-icon {
+  font-size: 50px;
+  color: #1267fc;
+}
+
+.services .serv-content .card:hover ion-icon {
+  color: #fff;
+}
+
+.services .serv-content .card {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 17px 0 7px 0;
+}
+
 /* Responsive */
 
 @media (max-width: 1300px) {
@@ -252,6 +312,10 @@ section {
   .about .about-content .left img {
     width: 350px;
     height: 350px;
+  }
+  
+  .navbar .max-width {
+    margin-left: 0;
   }
 }
 
@@ -320,6 +384,11 @@ section {
   .about .about-content .right {
     flex: 100%;
   }
+
+  .services .serv-content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -334,6 +403,10 @@ section {
 
   .home .home-content a {
     font-size: 20px;
+  }
+
+  .services .serv-content .card {
+    width: 100%;
   }
 }
 
