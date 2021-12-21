@@ -180,7 +180,7 @@ section .title::after {
   transform: translateX(-50%);
 }
 
-.about, .services, .skills {
+.about, .services, .skills, .teams {
   background-color: #1b1b1b;
   font-family: "Poppins", sans-serif;
 }
@@ -249,16 +249,16 @@ section .title::after {
 
 /* Serviços */
 
-.services {
+.services, .teams {
   color: #fff;
   background: #1b1b1b;
 }
 
-.services .title::before {
+.services .title::before, .teams .title::before {
   background: #4a5f83;
 }
 
-.services .title::after {
+.services .title::after, .teams .title::after {
   background: #1b1b1b;
   content: "Que ofereço";
 }
@@ -303,7 +303,7 @@ section .title::after {
 /* Especialidades */
 
 .skills .title::after {
-  content: "Que faço";
+  content: "Linguagens";
 }
 
 .skills .skills-content .column {
@@ -410,6 +410,78 @@ section .title::after {
 
 .skills .skills-content .right .html::before {
   width: 98%;
+}
+
+/* Relatos */
+
+.teams .title::after {
+  content: "Clientes";
+}
+
+.teams .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover {
+  background: #1267fc;
+}
+
+.teams .carousel .card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #1267fc;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+  border-color: #fff;
+}
+
+.teams .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+
+.teams .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  width: 14px;
+  height: 14px;
+  outline: none!important;
+  border-radius: 50%;
+  border: 2px solid #1267fc!important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot .active {
+  width: 35px;
+  border-radius: 15px;
+}
+
+.owl-dot .active, .owl-dot:hover {
+  background: #1267fc!important;
 }
 
 /* Responsive */
