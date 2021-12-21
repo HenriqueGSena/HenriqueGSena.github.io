@@ -180,19 +180,19 @@ section .title::after {
   transform: translateX(-50%);
 }
 
-/* Sobre */
-
-.about, .services {
+.about, .services, .skills {
   background-color: #1b1b1b;
   font-family: "Poppins", sans-serif;
 }
 
-.about .about-content, .services .serv-content {
+.about .about-content, .services .serv-content, .skills .skills-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
+
+/* Sobre */
 
 .about .title::after {
   content: "Quem sou eu";
@@ -300,6 +300,118 @@ section .title::after {
   margin: 17px 0 7px 0;
 }
 
+/* Especialidades */
+
+.skills .title::after {
+  content: "Que faço";
+}
+
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+  color: #fff;
+}
+
+.skills .skills-content .left .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.skills .skills-content .left p {
+  text-align: justify;
+}
+
+.skills .skills-content .left a {
+  display: inline-block;
+  background: #1267fc;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #1267fc;
+  transition: all 0.3s ease;
+}
+
+.skills .skills-content .left a:hover {
+  color: #1267fc;
+  background: none;
+}
+
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills .skills-content .right .line {
+  width: 100%;
+  height: 5px;
+  background: #ccc;
+  position: relative;
+}
+
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #1267fc;
+}
+
+.skills .skills-content .right .java::before {
+  width: 93%;
+}
+
+.skills .skills-content .right .springboot::before {
+  width: 75%;
+}
+
+.skills .skills-content .right .git::before {
+  width: 91%;
+}
+
+.skills .skills-content .right .postgresql::before {
+  width: 96%;
+}
+
+.skills .skills-content .right .mysql::before {
+  width: 98%;
+}
+
+.skills .skills-content .right .postman::before {
+  width: 73%;
+}
+
+.skills .skills-content .right .nodejs::before {
+  width: 95%;
+}
+
+.skills .skills-content .right .js::before {
+  width: 95%;
+}
+
+.skills .skills-content .right .css::before {
+  width: 88%;
+}
+
+.skills .skills-content .right .html::before {
+  width: 98%;
+}
+
 /* Responsive */
 
 @media (max-width: 1300px) {
@@ -388,6 +500,11 @@ section .title::after {
   .services .serv-content .card {
     width: calc(50% - 10px);
     margin-bottom: 20px;
+  }
+
+  .skills .skills-content .column {
+    width: 100%;
+    margin-bottom: 35px;
   }
 }
 
