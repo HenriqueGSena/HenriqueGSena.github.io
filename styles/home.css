@@ -32,7 +32,7 @@ html {
   font-family: "Poppins", sans-serif;
   z-index: 999;
   transition: all 0.3s ease;
-  background-color: #1b1b1b;
+  background: #1b1b1b;
 }
 
 .navbar .sticky {
@@ -88,7 +88,7 @@ html {
 .home {
   display: flex;
   background-color: #1b1b1b;
-  /*background: url(imge/struct.png) no-repeat center;*/
+  /*background: url(image/circuit.svg) no-repeat center;*/
   height: 100vh;
   color: #fff;
   min-height: 500px;

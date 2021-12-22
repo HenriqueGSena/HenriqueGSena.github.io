@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
+$(document).ready(function() {
+    $(window).scroll(function() {
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
         } else {
@@ -11,7 +11,7 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
-    $('.scroll-up-btn').click(function(){
+    $('.scroll-up-btn').click(function() {
         $('html').animate({scrollTop: 0});
     });
 
@@ -33,7 +33,6 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-    
     $('.carousel').owlCarousel({
         margin:20,
         loop:true,
