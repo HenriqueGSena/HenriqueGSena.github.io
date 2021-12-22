@@ -11,30 +11,36 @@
     
 </head>
 <body>
+
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+
+    <!-- Menu Inicial -->
     <div class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>fólio</span></a></div>
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Especialidades</a></li>
-                <li><a href="#">Relatos</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#skills">Especialidades</a></li>
+                <li><a href="#teams">Relatos</a></li>
+                <li><a href="#contact">Contatos</a></li>
             </ul>
-            <div class="menu-btn i">
+            <div class="menu-btn">
                 <ion-icon name="menu-outline"></ion-icon>
             </div>
         </div>
     </div>
 
-    <!--Home Inicio-->
+    <!-- Home Inicio -->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Olá, meu nome é</div>
                 <div class="text-2">Henrique G Sena</div>
-                <div class="text-3">Eu sou <span>Developer Backend</span></div>
+                <div class="text-3">Eu sou <span class="typing"></span></div>
                 <a href="#">Contrate-me</a>
             </div>
         </div>
@@ -49,7 +55,7 @@
                     <img src="./image/perfil_2.png" alt="Henrique G Sena">
                 </div>
                 <div class="column right">
-                    <div class="text">Sou Carlos Henrique e sou <span>Developer Backend</span></div>
+                    <div class="text">Sou Carlos Henrique e sou <span class="typing-2"></span></div>
                     <p>
     
                         Desenvolvedor há 2 anos já atuante e alguns projetos de impacto no mercado, com reconhecimento em
@@ -265,12 +271,98 @@
             </div>
         </div>
     </section>
+
+    <!-- Contatos -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contatos</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Fale Conosco</div>
+                    <p>
+                        Precisando de ajuda com algum projeto ou de fazer melhorias em alguma aplicação da sua empresa ou
+                        negócio, entre em contato para que possa ser solucionado da maneira que deseja.
+                        Tenho certeza que aqui você irá encontrar o que procura a melhor solução e ideia para seu negócio.
+                    </p>
+    
+                    <div class="icons">
+                        <div class="row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Nome:</div>
+                                <div class="sub-title">Carlos Henrique</div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <ion-icon name="earth-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Endereço:</div>
+                                <div class="sub-title">Rio de Janeiro, RJ</div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Email:</div>
+                                <div class="sub-title">carlossena3525@gmail.com</div>
+                            </div>
+                        </div>
+
+                        <!--<div class="row">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <div class="info">
+                                <div class="head">Whatsapp:</div>
+                                <div class="sub-title">(21) 0000-0000</div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+                
+                <!-- Coluna Esquerda -->
+                
+                <div class="column right">
+                    <div class="text">Mensagem</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <input type="text" placeholder="Sobrenome" required>
+                            </div>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Escreva sua mensagem" required></textarea>
+                        </div>
+                        <br>
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <span>Criado por <a href="#">Henrique G Sena</a> | Todos os direitos reservados 2021</span>
+    </footer>
     
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </body>
 </html>
