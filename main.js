@@ -16,14 +16,14 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typing", {
-        strings:["Desenvolvedor Backend", "Desenvolvedor Frontend", "Analista", "Freelancer"],
+        strings:["Developer System", "Analista BI", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings:["Desenvolvedor", "Analista", "Freelancer"],
+        strings:["Developer System", "Analista BI", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

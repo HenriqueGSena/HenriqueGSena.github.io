@@ -105,7 +105,7 @@ html {
 
 .home .home-content .text-2 {
   font-size: 75px;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: -3px;
 }
 
@@ -147,7 +147,7 @@ html {
 
 .scroll-up-btn {
   position: fixed;
-  width: 41px;
+  width: 42px;
   height: 45px;
   right: 30px;
   bottom: 10px;
@@ -455,6 +455,10 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
+h4 {
+  color: rgb(177, 14, 47);
+}
+
 .teams .carousel .card:hover {
   background: #1267fc;
 }
@@ -516,7 +520,7 @@ section .title::after {
 /* Contatos */
 
 .contact .title::after {
-  content: "Fale Conosco";
+  content: "Ouvidoria";
 }
 
 .contact .contact-content .column {
@@ -684,7 +688,7 @@ footer span a:hover {
     z-index: 999;
   }
 
-  .menu-btn i .active::before {
+  .menu-btn i .active:before {
     content: "\f00d";
   }
 
