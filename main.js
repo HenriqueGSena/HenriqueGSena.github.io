@@ -11,28 +11,27 @@ $(document).ready(function() {
             $('.scroll-up-btn').removeClass("show");
         }
     });
+
+    // scroll-up button
     $('.scroll-up-btn').click(function() {
         $('html').animate({scrollTop: 0});
     });
 
+    // typing animation
     var typed = new Typed(".typing", {
-        strings:["Software Engineer", "BI Analyst", "Freelancer"],
+        strings:["Desenvolvedor", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings:["Software Engineer", "BI Analyst", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
+    // toggle menu/navbar
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
+    // owl carousel
     $('.carousel').owlCarousel({
         margin:20,
         loop:true,
